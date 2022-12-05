@@ -14,5 +14,8 @@ namespace WebApplication5.Data
         {
         }
         public DbSet<WebApplication5.Models.hotel> hotel { get; set; }
+        public DbSet<WebApplication5.Models.Room> Room { get; set; }
+        public DbSet<WebApplication5.Models.Customer> Customer { get; set; }
+        public DbSet<WebApplication5.Models.Booking_Info> Booking_Info { get; set; }
     }
 }
